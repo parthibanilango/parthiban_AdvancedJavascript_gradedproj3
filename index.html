@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test App</title>
+    <link rel="stylesheet" href="typing-app-main.css">
+</head>
+<body>
+  
+    <h1 class="heading">
+      Test Your Typing speed
+    </h1>
+ 
+    <div class="app-wrap">
+      <div class="center-inline">
+        <div class="mg-btm">
+          <div class="flex">
+            <div id="wpm" class="result" style="display:none" >
+              <div class="result-head">WPM</div>
+              <div id="wpm-value" class="value">0</div>
+            </div>
+            <div id="cpm" class="result" style="display:none">
+              <div class="result-head">CPM</div>
+              <div id="cpm-value" class="value">0</div>
+            </div>
+            <div id="error" class="result" >
+              <div class="result-head">Errors</div>
+              <div id="error-value" class="value">0</div>
+            </div>
+            <div id="time" class="result" >
+              <div class="result-head">Time</div>
+              <div id="time-value" class="value">60s</div>
+            </div>
+            <div id="accuracy" class="result">
+              <div class="result-head">Accuracy</div>
+              <div id="accuracy-value"class="value">100%</div>
+          </div>
+         </div>
+        </div>
+        <div class="mg-btm">
+          <div class="dummy-text">
+            <div id="dummy-text-id">Game started..Click on the area below to get the text</div>
+          </div>
+        </div>
+        <div class="input-box-div">
+         <input id="text" class="input-box" name="text" placeholder="start typing here..." />
+        </div>
+        <div>
+          <button id="reset-btn" class="btn2 bg-green" style="display:none" >Reset</button> 
+        </div>
+      </div>
+    </div>
+
+  <script src="typing-app-main.js"></script>
+</body>
+</html>
